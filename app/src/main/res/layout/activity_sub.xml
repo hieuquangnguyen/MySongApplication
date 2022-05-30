@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SubActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtmaso1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:paddingLeft="10sp"
+            android:text="#"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtmaso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="14124"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:text="Tên bài hát"
+            android:textColor="@color/main_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtbaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10sp"
+            android:text="Chén đắng"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:text="Lời bài hát"
+            android:textColor="@color/main_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtloibaihat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="10sp"
+            android:text="Một ngày anh nhớ"
+            android:textSize="20sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10sp"
+            android:text="Tác giả"
+            android:textColor="@color/main_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txttacgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10sp"
+            android:layout_weight="1"
+            android:text="Trương Lê Sơn"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10sp"
+            android:text="Yêu thích"
+            android:textColor="@color/main_color"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/btnthich"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:paddingLeft="10sp"
+                app:srcCompat="@drawable/favourite" />
+
+            <ImageButton
+                android:id="@+id/btnkhongthich"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="10sp"
+                android:background="#ffffff"
+                app:srcCompat="@drawable/unlike" />
+        </FrameLayout>
+    </TableRow>
+
+</TableLayout>

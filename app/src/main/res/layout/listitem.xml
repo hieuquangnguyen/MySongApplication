@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp">
+
+    <TextView
+        android:id="@+id/txtmaso1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="52300"
+        android:textColor="@color/main_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20sp"
+        android:layout_weight="1"
+        android:text="Em là ai Tôi là ai"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/btnlike"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#ffffff"
+            app:srcCompat="@drawable/favourite" />
+
+        <ImageButton
+            android:id="@+id/btnunlike"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#ffffff"
+            app:srcCompat="@drawable/unlike" />
+    </FrameLayout>
+</LinearLayout>
